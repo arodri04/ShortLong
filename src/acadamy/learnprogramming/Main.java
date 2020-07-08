@@ -46,6 +46,14 @@ public class Main {
         byte myNewByte = (byte) (myMinByteValue / 2); //This is Casting, telling the ide to treat this as a byte before it comes out
         short myNewShort = (short) (myMinshortValue / 2);// java uses int by default unless said otherwise
 
-        
+        //Challenge - create byte short and int, then a long and make the long equal to 50000 plus 10 times the sum of the byte short int
+
+        byte byteValue = 3;
+        short shortValue = 4;
+        int intValue = 5;
+
+        long longValue = (long) (50000L + ((byteValue+shortValue+intValue)*10L));
+
+        System.out.println("The Long Value is: "+ longValue);
     }
 }
