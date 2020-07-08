@@ -39,5 +39,13 @@ public class Main {
 
         System.out.println("Max long = " + myMaxlongValue);
 
+
+
+        int myTotal = (myMin / 2);
+
+        byte myNewByte = (byte) (myMinByteValue / 2); //This is Casting, telling the ide to treat this as a byte before it comes out
+        short myNewShort = (short) (myMinshortValue / 2);// java uses int by default unless said otherwise
+
+        
     }
 }
